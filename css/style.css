@@ -296,6 +296,11 @@ input[type=submit]:hover, input[type=submit]:active{
     height: 50px;
     width: auto;
     margin-right: 10px;
+
+}
+.appstore {
+    display: flex;
+    justify-content: center;
 }
 /* ------------------------------------------ */
 /* Cities */
@@ -437,6 +442,11 @@ input[type=checkbox]{
 *:focus{
    outline: none;
 }
+.form-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* ------------------------------------------ */
 /* Footer*/
 /* -------------------------------------------*/ 
@@ -451,22 +461,27 @@ footer{
     list-style: none;
     float: left;
 }
-.socila-links{
+.social-links{
     list-style: none;
     float: right;
 }
-.footer-nav li, .socila-links li{
+.social-elements {
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav li, .social-links li{
     display: inline-block;
     margin-right: 20px;
 }
-.socila-links li:last-child,
+.social-links li:last-child,
 .footer-nav li:last-child{
     margin-right: 0;
 }
 .footer-nav li a:link,
 .footer-nav li a:visited,
-.socila-links li a:link,
-.socila-links li a:visited{
+.social-links li a:link,
+.social-links li a:visited{
 
     text-decoration: none;
     border: none;
@@ -475,18 +490,19 @@ footer{
 }
 .footer-nav li a:hover,
 .footer-nav li a:active,
-.socila-links li a:hover,
-.socila-links li a:active{
+.social-links li a:hover,
+.social-links li a:active{
     color: #ddd;
 }
 
-.socila-links li a:link,
-.socila-links li a:visited{
+.social-links li a:link,
+.social-links li a:visited{
     font-size: 160%;
     
 }
 .facebook, .google, .twitter, .instagram{
     transition: color 0.2s;
+
 }
 
 .facebook:hover{
