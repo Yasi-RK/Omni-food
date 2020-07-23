@@ -124,6 +124,18 @@ header{
     float: left;
     margin-top: 20px;
 }
+.logo-black {
+    display: none
+}
+
+.logo-black{
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0
+}
+.sticky .logo-black{ display: block;}
+
 .main-nav{
     float: right;
     list-style: none;
@@ -149,6 +161,38 @@ header{
     border-bottom: 2px solid #e67e22;
     
 }
+/* sticky navi */
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    color: #555;
+    padding: 16px 0;
+
+}
+.sticky .main-nav{ 
+    margin-top: 18px; 
+}
+.sticky .main-nav{
+    margin-top: 18px;
+}
+.sticky .logo{display: none;}
+
+
+
+
+
+
+
+
 /* ------------------------------------------ */
 /* Generic Links */
 /* -------------------------------------------*/ 
@@ -208,6 +252,22 @@ input[type=submit]:hover, input[type=submit]:active{
     /* background-color: #e67e22;  */
     border: 1px solid #e67e22;
 }
+.go-to-top-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-bottom: 30px; 
+ 
+}
+.go-to-top-btn .js--go-to-start {
+    background-color: #f5be8e;
+    border-color: #f5be8e;
+    position: fixed;
+    right: 30px;
+    bottom: 180px;
+}
+
+
 /* ------------------------------------------ */
 /*  Futures */
 /* -------------------------------------------*/  
@@ -523,4 +583,26 @@ footer p{
     color: #888;
     text-align: center;
     margin-top: 10px;
+}
+/* ------------------------------------------ */
+/*  Animations */
+/* -------------------------------------------*/  
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-4{
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated{
+
+    opacity: 1;
 }
