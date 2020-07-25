@@ -134,7 +134,7 @@ header{
     float: left;
     margin: 5px 0
 }
-.sticky .logo-black{ display: block;}
+
 
 .main-nav{
     float: right;
@@ -161,6 +161,25 @@ header{
     border-bottom: 2px solid #e67e22;
     
 }
+.mobile-nav-icon{
+    float: right;
+    cursor: pointer;
+    margin-top: 30px;
+    display: none;
+}
+.mobile-nav-icon ion-icon {
+    font-size: 200% ;
+    color: white;
+    border: none;
+    
+}
+.mobile-nav-icon:link,
+.mobile-nav-icon:visited {
+  border: none;
+    
+}
+
+
 /* sticky navi */
 
 .sticky{
@@ -185,6 +204,8 @@ header{
     margin-top: 18px;
 }
 .sticky .logo{display: none;}
+
+.sticky .logo-black{ display: block;}
 
 
 
@@ -262,10 +283,15 @@ input[type=submit]:hover, input[type=submit]:active{
 .go-to-top-btn .js--go-to-start {
     background-color: #f5be8e;
     border-color: #f5be8e;
-    position: fixed;
+    /* position: fixed;
     right: 30px;
-    bottom: 180px;
+    bottom: 180px; */
 }
+ion-icon .close-menu{
+    height: 10px;
+    width: 10px;
+}
+
 
 
 /* ------------------------------------------ */
