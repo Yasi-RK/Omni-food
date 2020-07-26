@@ -533,6 +533,27 @@ input[type=checkbox]{
     align-items: center;
     justify-content: center;
 }
+.message{
+    margin: 0 auto;
+}
+.form-message{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-bottom: 30px;
+    color: #333;
+}
+.success{
+    background-color: rgba(65, 211, 97, 0.808);
+}
+.error{
+    background-color: rgba(201, 73, 73, 0.884);
+}
 /* ------------------------------------------ */
 /* Footer*/
 /* -------------------------------------------*/ 
